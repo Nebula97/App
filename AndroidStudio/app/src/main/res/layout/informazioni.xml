@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="niccolosponza.gioiellisponza.Generale">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1000"
+        android:layout_height="0dp">
+
+    <TextView
+        android:id="@+id/Info_Titolo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_purple"
+        android:layout_marginTop="30dp"
+        android:textSize="10pt"
+        android:text="@string/Info_Titolo" />
+
+    <TextView
+        android:id="@+id/Info_artigiano"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="40dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="@string/Info_artigiano" />
+
+    <TextView
+        android:id="@+id/Info_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="@string/Info_email" />
+
+    <TextView
+        android:id="@+id/Info_collaboratore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="@string/Info_collaboratore" />
+
+    <TextView
+        android:id="@+id/Info_creatore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="@string/Info_creatore" />
+
+    <TextView
+        android:id="@+id/Info_dataPubblicazione"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="@string/Info_dataPubblicazione" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Info_versione"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/darker_gray"
+        android:textAlignment="viewEnd"
+        android:layout_gravity="end"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:text="@string/Info_versione" />
+
+
+</LinearLayout>

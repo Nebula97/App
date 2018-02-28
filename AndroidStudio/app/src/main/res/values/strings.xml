@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Gioielli Sponza</string>
+
+    <!-- generali -->
+    <string name="Email">info@gioiellisponza.it</string>
+    <string name="Nome">Daniele Sponza</string>
+
+    <!-- Strings related to login -->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+
+    <!-- Home -->
+    <string name="Home_btnUnici">Unici</string>
+    <string name="Home_btnSpeciali">Speciali</string>
+    <string name="Home_btnGalleria">Galleria</string>
+    <string name="Home_btnEventi">Eventi</string>
+
+    <!-- menu -->
+    <string name="Menu_Info">Informazioni</string>
+    <string name="Menu_SendEmail">Email</string>
+    <string name="Menu_Esci">Esci</string>
+
+    <!-- informazioni -->
+    <string name="Info_Titolo">INFORMAZIONI GENERALI</string>
+    <string name="Info_artigiano">Artigiano: Daniele Sponza</string>
+    <string name="Info_email">Email: info@gioiellisponza.it</string>
+    <string name="Info_collaboratore">Collaboratore: Serenza Lazzeri</string>
+    <string name="Info_creatore">A cura di: Niccolò Sponza</string>
+    <string name="Info_dataPubblicazione">Data pubblicazione: 27/02/2018</string>
+    <string name="Info_versione">V. 1.0.0</string>
+
+    <!-- email -->
+    <string name="Email_Titolo">Invia una richiesta</string>
+    <string name="Email_A">A:</string>
+    <string name="Email_Da_Testo">Da:</string>
+    <string name="Email_Da">Inserisci l\'email</string>
+    <string name="Email_Corpo">Inserisci il testo</string>
+
+</resources>

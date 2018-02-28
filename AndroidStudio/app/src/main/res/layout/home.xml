@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@android:color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="niccolosponza.gioiellisponza.Home">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/Home_Unici"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="0dp"
+        android:textAllCaps="true"
+        android:textStyle="bold|italic"
+        style="?android:attr/buttonBarButtonStyle"
+        android:text="@string/Home_btnUnici" />
+
+    <Button
+        android:id="@+id/Home_Speciali"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:layout_marginRight="0dp"
+        android:layout_marginEnd="0dp"
+        android:textAllCaps="true"
+        android:textStyle="bold|italic"
+        style="?android:attr/buttonBarButtonStyle"
+        android:text="@string/Home_btnSpeciali" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/Home_Galleria"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:background="@android:color/transparent"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="0dp"
+            android:textAllCaps="true"
+            android:textStyle="bold|italic"
+            style="?android:attr/buttonBarButtonStyle"
+            android:text="@string/Home_btnGalleria" />
+
+        <Button
+            android:id="@+id/Home_Eventi"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:background="@android:color/transparent"
+            android:textColor="@android:color/white"
+            android:layout_marginRight="0dp"
+            android:layout_marginEnd="0dp"
+            android:textAllCaps="true"
+            android:textStyle="bold|italic"
+            style="?android:attr/buttonBarButtonStyle"
+            android:text="@string/Home_btnEventi" />
+
+    </LinearLayout>
+
+    <ImageSwitcher
+        android:id="@+id/Home_Immagini"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
